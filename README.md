@@ -1,0 +1,4 @@
+ScalaTraining
+=============
+
+Scala Intellij projects
