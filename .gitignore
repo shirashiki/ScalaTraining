@@ -1,0 +1,26 @@
+# Intellij Scala gitignore  
+# See https://github.com/JetBrains/intellij-scala/blob/master/.gitignore
+#
+.idea/scopes/
+.idea/dictionaries/
+.idea/inspectionProfiles/
+.idea/libraries/
+.idea/modules/
+.idea/.name
+.idea/*.xml
+!.idea/vcs.xml
+/classes
+/dist
+/out
+/SDK/*SDK
+/target
+/*.bat
+*.class
+out
+build
+*~
+target/
+testdata/debugger
+
+# OS X
+.DS_Store
