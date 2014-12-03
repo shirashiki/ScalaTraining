@@ -1,4 +1,4 @@
 ScalaTraining
-=============
+
 
 Scala Intellij projects
