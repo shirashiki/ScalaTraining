@@ -5,6 +5,7 @@ object rationals {
     val y = new Rational(2,3)
 
     x.add(y)
+    x.sub(y)
 }
 
 class Rational(x: Int, y: Int) {
@@ -16,6 +17,10 @@ class Rational(x: Int, y: Int) {
     numer * that.denom + that.numer * denom,
     denom * that.denom
   )
+
+  def neg: Rational = new Rational(-numer, denom)
+
+  def sub(that: Rational) = add(that.neg)
 
   override def toString = numer + "/" + denom
 }
